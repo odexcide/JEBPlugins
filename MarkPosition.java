@@ -334,6 +334,7 @@ public class MarkPosition implements IScript {
                         continue;
                     }
                     newTableItem.setText(ColumnName.Signature.ordinal(), mark.signature);
+                    newTableItem.setText(ColumnName.View.ordinal(), mark.view);
                     newTableItem.setText(ColumnName.Line.ordinal(), mark.line);
                     newTableItem.setText(ColumnName.Description.ordinal(), mark.description);
                 }
