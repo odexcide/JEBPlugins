@@ -1,5 +1,4 @@
-//? name=MarkPosition, shortcut=Ctrl+Shift+m, author=odexcide, help=Add
-position marking
+//? name=MarkPosition, shortcut=Ctrl+Shift+m, author=odexcide, help=Add position marking to JEB
 // Creates marked positions in Disassembly or Decompiled Views by pressing Alt+m
 // Delete marks by hitting 'd' in the marked positions table
 
