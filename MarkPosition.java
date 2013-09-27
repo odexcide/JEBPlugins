@@ -246,7 +246,7 @@ public class MarkPosition implements IScript {
                 CodeView view = null;
                 String currentView = null;
         
-                if(JebInstance.getSoftwareVersion() <= '1.4.201309040') {
+                if(JebInstance.getSoftwareVersion() <= "1.4.201309040") {
                     w("Using a version of JEB that doesn't support Disassembly marks");
                     view = (CodeView) jebUI.getView(View.Type.JAVA);
                     currentView = View.Type.JAVA.name();
